@@ -1,0 +1,21 @@
+{
+    "include": [
+        "cypress/**/*"
+    ],
+    "compilerOptions": {
+        "allowJs": true,
+        "checkJs": true,
+        "noEmit": true,
+        "resolveJsonModule": true,
+        // "strict": true,
+        "types": [
+            "cypress"
+        ],
+        "lib": [
+            "es2015",
+            "dom"
+        ],
+        "moduleResolution": "node",
+        "module": "es2015"
+    }
+}
