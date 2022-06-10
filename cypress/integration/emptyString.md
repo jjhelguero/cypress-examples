@@ -17,7 +17,7 @@ const str = "This is not empty";
 cy.get(".string").invoke("text").should("equal", str);
 cy.get(".string")
   .invoke("text")
-  .should((text) => expect(text.length).to.be.gte(0));
+  .then((text) => expect(text.length).to.be.gte(0));
 ```
 
 <!-- fiddle-end -->
