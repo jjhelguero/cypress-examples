@@ -1,5 +1,8 @@
 /// <reference types="cypress" />
 
+This answers stackoverflow question
+https://stackoverflow.com/questions/72797054/how-to-assert-on-a-number-which-is-comma-separated-in-cypress
+
 <!-- fiddle Extract Number String and Assert -->
 
 ```html
