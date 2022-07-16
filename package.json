@@ -10,9 +10,9 @@
   "author": "jjhelguero",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^9.2.1",
-    "cypress-each": "^1.11.0",
-    "cypress-markdown-preprocessor": "^1.4.1",
+    "cypress": "9.2.1",
+    "cypress-each": "1.11.0",
+    "cypress-markdown-preprocessor": "1.4.1",
     "serve": "^13.0.2",
     "start-server-and-test": "^1.14.0"
   }
