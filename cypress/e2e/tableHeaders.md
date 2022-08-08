@@ -1,5 +1,3 @@
-/// <reference types="cypress" />
-
 This is a response to the stackoverflow question
 https://stackoverflow.com/questions/73268815/cypress-index-position-to-came-before-a-specific-string
 
@@ -21,20 +19,6 @@ https://stackoverflow.com/questions/73268815/cypress-index-position-to-came-befo
       <th></th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <td>one</td>
-      <td>two</td>
-      <td>three</td>
-      <td>four</td>
-      <td>five</td>
-      <td>six</td>
-      <td>seven</td>
-      <td>eight</td>
-      <td>nine</td>
-      <td>ten</td>
-    </tr>
-  </tbody>
 </table>
 ```
 
