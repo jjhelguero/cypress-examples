@@ -20,6 +20,14 @@ https://stackoverflow.com/questions/73268815/cypress-index-position-to-came-befo
     </tr>
   </thead>
 </table>
+<style>
+  table,
+  th,
+  td {
+    border: 1x solid;
+    padding: 5px 10px;
+  }
+</style>
 ```
 
 ```js
