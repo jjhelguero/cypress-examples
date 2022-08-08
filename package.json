@@ -5,7 +5,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "serve -p 4700 public",
-    "dev": "start-test 4700 cy:open"
+    "dev": "start-test 4700 cy:open",
+    "e2e": "npx cypress open --e2e --browser chrome"
   },
   "author": "jjhelguero",
   "license": "ISC",
