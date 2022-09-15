@@ -9,5 +9,6 @@ module.exports = defineConfig({
     },
     baseUrl: 'http://localhost:4700',
     specPattern: 'cypress/e2e/*.{md,js}',
+    experimentalSessionAndOrigin: true
   },
 })
