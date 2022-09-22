@@ -1,3 +1,5 @@
+A list of answers to questions on stackoverflow and cypress-io discussions on github.
+
 ## Installation
 
 Install npm package:
@@ -5,7 +7,6 @@ Install npm package:
 ```
 npm install
 ```
-
 
 ## Cypress
 
