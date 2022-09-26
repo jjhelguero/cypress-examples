@@ -9,20 +9,21 @@ https://stackoverflow.com/questions/73810379/in-cypress-testing-how-to-check-if-
 <table id="myTable">
   <thead>
     <th>Chapter 1</th>
-    <th>Chapter 5</th>
+    <th>Lesson Number 5</th>
     <th>Chapter 6</th>
     <th>Chapter 8</th>
-    <th>Chapter 10</th>
+    <th>Lesson Number 10</th>
   </thead>
 </table>
 ```
 
 ```js
-cy.get("th").then(($el) => {
+cy.get("th:contains('Lesson Number')").then(($el) => {
   // use lodash .map() to get innerText of each element
   // then extract number and convert to int
   const originalOrder = Cypress._.map($el, (n) => {
-    return +n.innerText.split(" ")[1];
+    // get number only, in this case will be index 2
+    return +n.innerText.split(" ")[2];
   });
   // make a copy of the original array to sort
   const sortedOrder = [...originalOrder];
