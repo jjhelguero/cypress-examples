@@ -11,7 +11,7 @@
   "author": "jjhelguero",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "10.4.0",
+    "cypress": "10.10.0",
     "cypress-each": "1.11.0",
     "cypress-if": "1.8.0",
     "cypress-markdown-preprocessor": "1.7.1",
