@@ -22,6 +22,7 @@ const match = ["1", "2", "3", "5"];
 cy.get(".list > div")
   .then(($el) => {
     // filter out elements having '6', '9', and '21'
+    // and return the array to cypress chain
     return Cypress._.filter($el, (el) => {
       const text = el.innerText;
       return text != "6" && text != "9" && text != "21";
