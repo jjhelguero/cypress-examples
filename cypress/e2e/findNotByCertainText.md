@@ -28,6 +28,8 @@ cy.get(".list > div")
       return text != "6" && text != "9" && text != "21";
     });
   })
+  // map out innerText for this example only to assert
+  // we extracted elements that are no '6', '9', and '21'
   .then((list) => Cypress._.map(list, "innerText"))
   .should("deep.equal", match);
 ```
